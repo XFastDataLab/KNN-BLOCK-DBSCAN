@@ -4,7 +4,6 @@
 *********************************************************************************** 
 
 
-===================================================================================
  Files
 ===================================================================================
 These program mainly containing:
@@ -13,7 +12,8 @@ These program mainly containing:
 - a folder name “flann”, which saves the flann’s head file.
 - a c++ file named “KNN_BLOCK_DBSCAN.cpp” is the main function file.
 - other c++ files
-===================================================================================
+
+
  Environment configuration
 ===================================================================================
 
@@ -55,7 +55,7 @@ Step4:
 - Open CodeBlocks : choose “setting” ->”compiler and debugger”->”Linker settings”, and add these FLANN lib files to “Link libraries” .
 
 
-===================================================================================
+
  Dataset Format
 ===================================================================================
 The dataset should be given in a text file of the following format:
@@ -76,7 +76,7 @@ For instance, the first 10 lines of the sample dataset "agg.txt"(whose data numb
 There are 2 numbers in each line: the first line represents that the first point whose Id is 1 with the coordinates (15.55  28.65). Analogously, the rest nine lines above specify the coordinates of the point with id = 2, 3, 4, 5, 6, 7, 8, 9,10 respectively.  
 
 
-=================================================================================== 
+
  An example of quick start
 ===================================================================================
 Step1:
@@ -100,7 +100,8 @@ In line 4 :const int DIME_NUM = 2;
 Step4:
 -Press the “Build and run” button in CodeBlocks and the code will be run.
 
-===================================================================================
+
+
  Output Format
 ===================================================================================
 
