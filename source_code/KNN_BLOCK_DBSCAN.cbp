@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="KNN_BLOCK_DBSCAN" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/C2_DBSCAN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/C2_DBSCAN" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ClusterAnalysis.cpp" />
+		<Unit filename="ClusterAnalysis.h" />
+		<Unit filename="DataPoint.cpp" />
+		<Unit filename="DataPoint.h" />
+		<Unit filename="KNN_BLOCK_dbscan.cpp" />
+		<Unit filename="cyw_timer.h" />
+		<Unit filename="data/BODONI_norm.txt" />
+		<Unit filename="data/CALIBRI_norm.txt" />
+		<Unit filename="data/CBs_radius.txt" />
+		<Unit filename="data/agg.txt" />
+		<Unit filename="data/aps_norm.txt" />
+		<Unit filename="data/mocap_uni_norm.txt" />
+		<Unit filename="data/reaction_uni_norm.txt" />
+		<Unit filename="data/result.txt" />
+		<Unit filename="flann/algorithms/all_indices.h" />
+		<Unit filename="flann/algorithms/autotuned_index.h" />
+		<Unit filename="flann/algorithms/center_chooser.h" />
+		<Unit filename="flann/algorithms/composite_index.h" />
+		<Unit filename="flann/algorithms/dist.h" />
+		<Unit filename="flann/algorithms/hierarchical_clustering_index.h" />
+		<Unit filename="flann/algorithms/kdtree_cuda_3d_index.h" />
+		<Unit filename="flann/algorithms/kdtree_cuda_builder.h" />
+		<Unit filename="flann/algorithms/kdtree_index.h" />
+		<Unit filename="flann/algorithms/kdtree_single_index.h" />
+		<Unit filename="flann/algorithms/kmeans_index.h" />
+		<Unit filename="flann/algorithms/linear_index.h" />
+		<Unit filename="flann/algorithms/lsh_index.h" />
+		<Unit filename="flann/algorithms/nn_index.h" />
+		<Unit filename="flann/config.h" />
+		<Unit filename="flann/defines.h" />
+		<Unit filename="flann/flann.h" />
+		<Unit filename="flann/flann.hpp" />
+		<Unit filename="flann/general.h" />
+		<Unit filename="flann/io/hdf5.h" />
+		<Unit filename="flann/mpi/client.h" />
+		<Unit filename="flann/mpi/index.h" />
+		<Unit filename="flann/mpi/matrix.h" />
+		<Unit filename="flann/mpi/queries.h" />
+		<Unit filename="flann/mpi/server.h" />
+		<Unit filename="flann/nn/ground_truth.h" />
+		<Unit filename="flann/nn/index_testing.h" />
+		<Unit filename="flann/nn/simplex_downhill.h" />
+		<Unit filename="flann/util/allocator.h" />
+		<Unit filename="flann/util/any.h" />
+		<Unit filename="flann/util/cuda/heap.h" />
+		<Unit filename="flann/util/cuda/result_set.h" />
+		<Unit filename="flann/util/cutil_math.h" />
+		<Unit filename="flann/util/dynamic_bitset.h" />
+		<Unit filename="flann/util/heap.h" />
+		<Unit filename="flann/util/logger.h" />
+		<Unit filename="flann/util/lsh_table.h" />
+		<Unit filename="flann/util/matrix.h" />
+		<Unit filename="flann/util/object_factory.h" />
+		<Unit filename="flann/util/params.h" />
+		<Unit filename="flann/util/random.h" />
+		<Unit filename="flann/util/result_set.h" />
+		<Unit filename="flann/util/sampling.h" />
+		<Unit filename="flann/util/saving.h" />
+		<Unit filename="flann/util/serialization.h" />
+		<Unit filename="flann/util/timer.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

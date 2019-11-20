@@ -1,0 +1,607 @@
+# depslib dependency file v1.0
+1520781307 source:d:\flann-1.8.4-src\include\c2_dbscan\datapoint.cpp
+	"DataPoint.h"
+
+1520956165 d:\flann-1.8.4-src\include\c2_dbscan\datapoint.h
+	<vector>
+
+1521038964 source:d:\flann-1.8.4-src\include\c2_dbscan\dbscan.cpp
+	"ClusterAnalysis.h"
+	<cstdio>
+	<ctime>
+	<cstdlib>
+	"cyw_timer.h"
+
+1520925279 d:\flann-1.8.4-src\include\c2_dbscan\clusteranalysis.h
+	<iostream>
+	<cmath>
+	<vector>
+	<cstdlib>
+	"DataPoint.h"
+	"../flann/flann.h"
+
+1358260712 d:\flann-1.8.4-src\include\flann\flann.h
+	"defines.h"
+	"flann.hpp"
+
+1358260712 d:\flann-1.8.4-src\include\flann\defines.h
+	"config.h"
+
+1516524179 d:\flann-1.8.4-src\include\flann\config.h
+
+1516526968 d:\flann-1.8.4-src\include\flann\flann.hpp
+	<vector>
+	<string>
+	<cassert>
+	<cstdio>
+	"general.h"
+	"util/matrix.h"
+	"util/params.h"
+	"util/saving.h"
+	"algorithms/all_indices.h"
+
+1358260712 d:\flann-1.8.4-src\include\flann\general.h
+	"defines.h"
+	<stdexcept>
+	<cassert>
+	<limits.h>
+
+1516527002 d:\flann-1.8.4-src\include\flann\util\matrix.h
+	"../general.h"
+	"../util/serialization.h"
+	<stdio.h>
+
+1516524335 d:\flann-1.8.4-src\include\flann\util\serialization.h
+	<vector>
+	<map>
+	<stdio.h>
+
+1516527012 d:\flann-1.8.4-src\include\flann\util\params.h
+	"any.h"
+	"../general.h"
+	<iostream>
+	<map>
+
+1358260712 d:\flann-1.8.4-src\include\flann\util\any.h
+	<stdexcept>
+	<ostream>
+	<typeinfo>
+
+1516527018 d:\flann-1.8.4-src\include\flann\util\saving.h
+	<cstring>
+	<vector>
+	<stdio.h>
+	"../general.h"
+	"../util/serialization.h"
+
+1516527046 d:\flann-1.8.4-src\include\flann\algorithms\all_indices.h
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../algorithms/kdtree_index.h"
+	"../algorithms/kdtree_single_index.h"
+	"../algorithms/kmeans_index.h"
+	"../algorithms/composite_index.h"
+	"../algorithms/linear_index.h"
+	"../algorithms/hierarchical_clustering_index.h"
+	"../algorithms/lsh_index.h"
+	"../algorithms/autotuned_index.h"
+	"flann/algorithms/kdtree_cuda_3d_index.h"
+
+1516527059 d:\flann-1.8.4-src\include\flann\algorithms\nn_index.h
+	<vector>
+	"../general.h"
+	"../util/matrix.h"
+	"../util/params.h"
+	"../util/result_set.h"
+	"../util/dynamic_bitset.h"
+	"../util/saving.h"
+
+1358260712 d:\flann-1.8.4-src\include\flann\util\result_set.h
+	<algorithm>
+	<cstring>
+	<iostream>
+	<limits>
+	<set>
+	<vector>
+
+1358260712 d:\flann-1.8.4-src\include\flann\util\dynamic_bitset.h
+	<boost/dynamic_bitset.hpp>
+	<limits.h>
+
+1516527074 d:\flann-1.8.4-src\include\flann\algorithms\kdtree_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	<stdarg.h>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../util/dynamic_bitset.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+
+1358260712 d:\flann-1.8.4-src\include\flann\util\heap.h
+	<algorithm>
+	<vector>
+
+1358260712 d:\flann-1.8.4-src\include\flann\util\allocator.h
+	<stdlib.h>
+	<stdio.h>
+
+1516527077 d:\flann-1.8.4-src\include\flann\util\random.h
+	<algorithm>
+	<cstdlib>
+	<cstddef>
+	<vector>
+	"../general.h"
+
+1516527092 d:\flann-1.8.4-src\include\flann\algorithms\kdtree_single_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+
+1516527119 d:\flann-1.8.4-src\include\flann\algorithms\kmeans_index.h
+	<algorithm>
+	<string>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../algorithms/dist.h"
+	"../algorithms/center_chooser.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+	"../util/logger.h"
+
+1516527109 d:\flann-1.8.4-src\include\flann\algorithms\dist.h
+	<cmath>
+	<cstdlib>
+	<string.h>
+	<stdint.h>
+	"../defines.h"
+
+1516527132 d:\flann-1.8.4-src\include\flann\algorithms\center_chooser.h
+	"../util/matrix.h"
+
+1516527137 d:\flann-1.8.4-src\include\flann\util\logger.h
+	<stdio.h>
+	<stdarg.h>
+	"../defines.h"
+
+1516527142 d:\flann-1.8.4-src\include\flann\algorithms\composite_index.h
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../algorithms/kdtree_index.h"
+	"../algorithms/kmeans_index.h"
+
+1516527145 d:\flann-1.8.4-src\include\flann\algorithms\linear_index.h
+	"../general.h"
+	"../algorithms/nn_index.h"
+
+1516527154 d:\flann-1.8.4-src\include\flann\algorithms\hierarchical_clustering_index.h
+	<algorithm>
+	<string>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../algorithms/dist.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+	"../util/serialization.h"
+
+1516527163 d:\flann-1.8.4-src\include\flann\algorithms\lsh_index.h
+	<algorithm>
+	<cassert>
+	<cstring>
+	<map>
+	<vector>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/lsh_table.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+
+1516527166 d:\flann-1.8.4-src\include\flann\util\lsh_table.h
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<limits.h>
+	<unordered_map>
+	<map>
+	<math.h>
+	<stddef.h>
+	"../util/dynamic_bitset.h"
+	"../util/matrix.h"
+
+1516527178 d:\flann-1.8.4-src\include\flann\algorithms\autotuned_index.h
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../nn/ground_truth.h"
+	"../nn/index_testing.h"
+	"../util/sampling.h"
+	"../algorithms/kdtree_index.h"
+	"../algorithms/kdtree_single_index.h"
+	"../algorithms/kmeans_index.h"
+	"../algorithms/composite_index.h"
+	"../algorithms/linear_index.h"
+	"../util/logger.h"
+
+1516527182 d:\flann-1.8.4-src\include\flann\nn\ground_truth.h
+	"../algorithms/dist.h"
+	"../util/matrix.h"
+
+1516527188 d:\flann-1.8.4-src\include\flann\nn\index_testing.h
+	<cstring>
+	<cassert>
+	<cmath>
+	"../util/matrix.h"
+	"../algorithms/nn_index.h"
+	"../util/result_set.h"
+	"../util/logger.h"
+	"../util/timer.h"
+
+1358260712 d:\flann-1.8.4-src\include\flann\util\timer.h
+	<time.h>
+
+1516527191 d:\flann-1.8.4-src\include\flann\util\sampling.h
+	"../util/matrix.h"
+	"../util/random.h"
+
+1516876635 d:\flann-1.8.4-src\include\c2_dbscan\cyw_timer.h
+	<string.h>
+	<windows.h>
+
+1521051123 source:d:\flann-1.8.4-src\include\c2_dbscan\clusteranalysis.cpp
+	"ClusterAnalysis.h"
+	<fstream>
+	<iosfwd>
+	<math.h>
+	<cstdlib>
+
+1524227096 source:d:\c2_dbscan\c2_dbscan\datapoint.cpp
+	"DataPoint.h"
+
+1526537826 d:\c2_dbscan\c2_dbscan\datapoint.h
+	<vector>
+
+1524188151 source:d:\c2_dbscan\c2_dbscan\dbscan.cpp
+	"ClusterAnalysis.h"
+	<cstdio>
+	<ctime>
+	<cstdlib>
+	"cyw_timer.h"
+
+1526450431 d:\c2_dbscan\c2_dbscan\clusteranalysis.h
+	<iostream>
+	<cmath>
+	<vector>
+	<cstdlib>
+	"DataPoint.h"
+	"flann/flann.h"
+
+1358260712 d:\c2_dbscan\c2_dbscan\flann\flann.h
+	"defines.h"
+	"flann.hpp"
+
+1358260712 d:\c2_dbscan\c2_dbscan\flann\defines.h
+	"config.h"
+
+1516524179 d:\c2_dbscan\c2_dbscan\flann\config.h
+
+1516526968 d:\c2_dbscan\c2_dbscan\flann\flann.hpp
+	<vector>
+	<string>
+	<cassert>
+	<cstdio>
+	"general.h"
+	"util/matrix.h"
+	"util/params.h"
+	"util/saving.h"
+	"algorithms/all_indices.h"
+
+1358260712 d:\c2_dbscan\c2_dbscan\flann\general.h
+	"defines.h"
+	<stdexcept>
+	<cassert>
+	<limits.h>
+
+1516527002 d:\c2_dbscan\c2_dbscan\flann\util\matrix.h
+	"../general.h"
+	"../util/serialization.h"
+	<stdio.h>
+
+1516524335 d:\c2_dbscan\c2_dbscan\flann\util\serialization.h
+	<vector>
+	<map>
+	<stdio.h>
+
+1516527012 d:\c2_dbscan\c2_dbscan\flann\util\params.h
+	"any.h"
+	"../general.h"
+	<iostream>
+	<map>
+
+1358260712 d:\c2_dbscan\c2_dbscan\flann\util\any.h
+	<stdexcept>
+	<ostream>
+	<typeinfo>
+
+1516527018 d:\c2_dbscan\c2_dbscan\flann\util\saving.h
+	<cstring>
+	<vector>
+	<stdio.h>
+	"../general.h"
+	"../util/serialization.h"
+
+1516527046 d:\c2_dbscan\c2_dbscan\flann\algorithms\all_indices.h
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../algorithms/kdtree_index.h"
+	"../algorithms/kdtree_single_index.h"
+	"../algorithms/kmeans_index.h"
+	"../algorithms/composite_index.h"
+	"../algorithms/linear_index.h"
+	"../algorithms/hierarchical_clustering_index.h"
+	"../algorithms/lsh_index.h"
+	"../algorithms/autotuned_index.h"
+	"flann/algorithms/kdtree_cuda_3d_index.h"
+
+1516527059 d:\c2_dbscan\c2_dbscan\flann\algorithms\nn_index.h
+	<vector>
+	"../general.h"
+	"../util/matrix.h"
+	"../util/params.h"
+	"../util/result_set.h"
+	"../util/dynamic_bitset.h"
+	"../util/saving.h"
+
+1358260712 d:\c2_dbscan\c2_dbscan\flann\util\result_set.h
+	<algorithm>
+	<cstring>
+	<iostream>
+	<limits>
+	<set>
+	<vector>
+
+1358260712 d:\c2_dbscan\c2_dbscan\flann\util\dynamic_bitset.h
+	<boost/dynamic_bitset.hpp>
+	<limits.h>
+
+1516527074 d:\c2_dbscan\c2_dbscan\flann\algorithms\kdtree_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	<stdarg.h>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../util/dynamic_bitset.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+
+1358260712 d:\c2_dbscan\c2_dbscan\flann\util\heap.h
+	<algorithm>
+	<vector>
+
+1358260712 d:\c2_dbscan\c2_dbscan\flann\util\allocator.h
+	<stdlib.h>
+	<stdio.h>
+
+1516527077 d:\c2_dbscan\c2_dbscan\flann\util\random.h
+	<algorithm>
+	<cstdlib>
+	<cstddef>
+	<vector>
+	"../general.h"
+
+1516527092 d:\c2_dbscan\c2_dbscan\flann\algorithms\kdtree_single_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+
+1516527119 d:\c2_dbscan\c2_dbscan\flann\algorithms\kmeans_index.h
+	<algorithm>
+	<string>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../algorithms/dist.h"
+	"../algorithms/center_chooser.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+	"../util/logger.h"
+
+1516527109 d:\c2_dbscan\c2_dbscan\flann\algorithms\dist.h
+	<cmath>
+	<cstdlib>
+	<string.h>
+	<stdint.h>
+	"../defines.h"
+
+1516527132 d:\c2_dbscan\c2_dbscan\flann\algorithms\center_chooser.h
+	"../util/matrix.h"
+
+1516527137 d:\c2_dbscan\c2_dbscan\flann\util\logger.h
+	<stdio.h>
+	<stdarg.h>
+	"../defines.h"
+
+1516527142 d:\c2_dbscan\c2_dbscan\flann\algorithms\composite_index.h
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../algorithms/kdtree_index.h"
+	"../algorithms/kmeans_index.h"
+
+1516527145 d:\c2_dbscan\c2_dbscan\flann\algorithms\linear_index.h
+	"../general.h"
+	"../algorithms/nn_index.h"
+
+1516527154 d:\c2_dbscan\c2_dbscan\flann\algorithms\hierarchical_clustering_index.h
+	<algorithm>
+	<string>
+	<map>
+	<cassert>
+	<limits>
+	<cmath>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../algorithms/dist.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+	"../util/serialization.h"
+
+1516527163 d:\c2_dbscan\c2_dbscan\flann\algorithms\lsh_index.h
+	<algorithm>
+	<cassert>
+	<cstring>
+	<map>
+	<vector>
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../util/matrix.h"
+	"../util/result_set.h"
+	"../util/heap.h"
+	"../util/lsh_table.h"
+	"../util/allocator.h"
+	"../util/random.h"
+	"../util/saving.h"
+
+1516527166 d:\c2_dbscan\c2_dbscan\flann\util\lsh_table.h
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<limits.h>
+	<unordered_map>
+	<map>
+	<math.h>
+	<stddef.h>
+	"../util/dynamic_bitset.h"
+	"../util/matrix.h"
+
+1516527178 d:\c2_dbscan\c2_dbscan\flann\algorithms\autotuned_index.h
+	"../general.h"
+	"../algorithms/nn_index.h"
+	"../nn/ground_truth.h"
+	"../nn/index_testing.h"
+	"../util/sampling.h"
+	"../algorithms/kdtree_index.h"
+	"../algorithms/kdtree_single_index.h"
+	"../algorithms/kmeans_index.h"
+	"../algorithms/composite_index.h"
+	"../algorithms/linear_index.h"
+	"../util/logger.h"
+
+1516527182 d:\c2_dbscan\c2_dbscan\flann\nn\ground_truth.h
+	"../algorithms/dist.h"
+	"../util/matrix.h"
+
+1516527188 d:\c2_dbscan\c2_dbscan\flann\nn\index_testing.h
+	<cstring>
+	<cassert>
+	<cmath>
+	"../util/matrix.h"
+	"../algorithms/nn_index.h"
+	"../util/result_set.h"
+	"../util/logger.h"
+	"../util/timer.h"
+
+1358260712 d:\c2_dbscan\c2_dbscan\flann\util\timer.h
+	<time.h>
+
+1516527191 d:\c2_dbscan\c2_dbscan\flann\util\sampling.h
+	"../util/matrix.h"
+	"../util/random.h"
+
+1524224592 d:\c2_dbscan\c2_dbscan\cyw_timer.h
+	<string.h>
+	<windows.h>
+
+1526538059 source:d:\c2_dbscan\c2_dbscan\clusteranalysis.cpp
+	"ClusterAnalysis.h"
+	<fstream>
+	<iosfwd>
+	<math.h>
+	<cstdlib>
+
+1526538350 source:d:\c2_dbscan\c2_dbscan\c2_dbscan.cpp
+	"ClusterAnalysis.h"
+	<cstdio>
+	<ctime>
+	<cstdlib>
+	"cyw_timer.h"
+
+1358260712 d:\flann-1.8.4-src\include\flann\algorithms\kdtree_cuda_3d_index.h
+	<algorithm>
+	<map>
+	<cassert>
+	<cstring>
+	"flann/general.h"
+	"flann/algorithms/nn_index.h"
+	"flann/util/matrix.h"
+	"flann/util/result_set.h"
+	"flann/util/heap.h"
+	"flann/util/allocator.h"
+	"flann/util/random.h"
+	"flann/util/saving.h"
+	"flann/util/params.h"
+
+1524227096 source:c:\users\zld\desktop\华侨大学\knn_block_dbscan\knn_block_dbscan\datapoint.cpp
+	"DataPoint.h"
+
+1526537826 c:\users\zld\desktop\华侨大学\knn_block_dbscan\knn_block_dbscan\datapoint.h
+	<vector>
+
