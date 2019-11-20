@@ -40,7 +40,6 @@ whether to compile the C, Python or the MATLAB bindings. To change any of
 this options use the cmake-gui application after cmake has finished (see Figure1).
  
  
-Figure 1: Configuring the FLANN compiler options
 Attention:If you want more information about compilering FLANN, you can visit 				https://github.com/mariusmuja/flann 
 
 Step2:
@@ -48,14 +47,12 @@ Step2:
 - Download TDM-GCC-32 in http://tdm-gcc.tdragon.net/download/   
 
 Step3:
-- Open CodeBlock: choose “setting” ->”compiler and debugger”->”ToolChain executables”,and set the parameters like the “Figure 2” shows:
+- Open CodeBlock: choose “setting” ->”compiler and debugger”->”ToolChain executables”:
  
 Figure 2: Configuring the “Toolchain executable” options
 
 Step4:
-- Open CodeBlocks : choose “setting” ->”compiler and debugger”->”Linker settings”, and add these FLANN lib files to “Link libraries” ,as “Figure 3” shows:
- 
-Figure 3: Configuring the “Linker settings” options
+- Open CodeBlocks : choose “setting” ->”compiler and debugger”->”Linker settings”, and add these FLANN lib files to “Link libraries” .
 
 
 ===================================================================================
@@ -102,9 +99,7 @@ In line 4 :const int DIME_NUM = 2;
 
 Step4:
 -Press the “Build and run” button in CodeBlocks and the code will be run.
-The result will perform like Figure 4:
- 
-Figure 4: The result of KNN_BLOCK_DBSCAN with the data “agg.txt”
+
 ===================================================================================
  Output Format
 ===================================================================================
